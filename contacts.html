@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Шью на заказ/Контакты</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="head1">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="head2">
+                <ul class="menu">
+                    <li class="menu_head"><a href="index.html">Главная</a></li>
+                    <li class="menu_head"><a href="catalog.html">Каталог</a></li>
+                    <li class="menu_head"><a href="raboty.html">Мои работы</a></li>
+                    <li class="menu_head menu_tekus"><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="head3">
+                <img src="img/logo1.png" alt="logo">
+            </div>
+        </header>
+        <div class="content">
+            <h2>Напишите нам:</h2>
+            <form class="form" action="send.php" method="POST">
+                <div class="in_form-left">Ваше имя:</div>
+                <div class="in_form-right"><input type="text" name="name" placeholder="Ваше имя*" required></div>
+                <div class="in_form-left">Ваш телефон в формате 8ХХХХХХХХХХ:</div>
+                <div class="in_form-right"><input type="text" maxlength="11" name="phone" placeholder="Номер телефона">
+                </div>
+                <div class="in_form-left">Ваша почта:</div>
+                <div class="in_form-right"><input type="email" name="email" placeholder="E-mail*" required></div>
+                <div class="in_form-left">Тема письма:</div>
+                <div class="in_form-right"><input type="text" name="tema" placeholder="Тема*" required></div>
+                <textarea rows="10" name="tekst" placeholder="Текст письма*" required></textarea><br>
+                <!--<input type='checkbox' onchange="document.getElementById('submit').disabled = !this.checked" />Согласен(на) на
+        обработку персональных данных.<br>
+        <br><input type='submit' id='submit' disabled value="Отправить данные">-->
+                <p class="snoska">* поля, обязательные для заполнения</p>
+                <p>Отправляя письмо, Вы принимаете <a href="person_dan.html">"Соглашение об обработке персональных
+                        данных"</a></p><br>
+                <input type='submit' value=" Отправить данные ">
+                <input type="reset" value=" Отмена ">
+            </form>
+            <h2>Контакты</h2>
+            <ul class="menu_kont">
+                <li>
+                    <div class="menu_kont1">
+                        <!--<a href="#"><img src="img/phone.png" alt="phone">&nbsp;&nbsp; +7 929 81 81 676</a>-->
+                    </div>
+                </li>
+                <li>
+                    <div class="menu_kont1"><a href="mailto:info@shmotki-detkam.ru"><img src="img/email.png"
+                                alt="e-mail">&nbsp;&nbsp;
+                            info@shmotki-detkam.ru</a></div>
+                </li>
+                <li>
+                    <div class="menu_kont1"><a href="https://www.instagram.com/nata_krivosheina?igshid=bp1viazrm0sx"
+                            target="_blank"><img src="img/instagram.png" alt="instagram"></a></div>
+                </li>
+                <li>
+                    <div class="menu_kont1">344000, г. Ростов-на-Дону</div>
+                </li>
+            </ul>
+            <div class="karta">
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6816b7e22164b5c3f7b07923483df4363d04cabc54b4c08f69d9317859e2f58f&amp;lang=ru_RU&amp;scroll=true">
+                </script>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <ul class="menu_footer">
+                <li>
+                    <div class="menu_footer1"><a href="index.html">ГЛАВНАЯ</a></div>
+                </li>
+                <li>
+                    <div class="menu_footer1"><a href="catalog.html">КАТАЛОГ</a></div>
+                </li>
+                <li>
+                    <div class="menu_footer1"><a href="contacts.html">КОНТАКТЫ</a></div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer1">
+            <div class="logo_footer"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+            <div class="logo_footer"><span>&copy; Студия Al-Jin 2016
+                    <script>
+                        new Date().getFullYear() > 2016 && document.write("-" + new Date().getFullYear());
+                    </script>
+                </span></div>
+        </div>
+        <div class="footer1">
+            <div>
+                <ul class="menu_footer_kont">
+                    <li>
+                        <div class="menu_footer_kont1">
+                            <!--<a href="#"><img src="img/phone.png" alt="phone">&nbsp;&nbsp;</a>-->
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu_footer_kont1"><a href="mailto:info@shmotki-detkam.ru"><img src="img/email.png"
+                                    alt="e-mail">&nbsp;&nbsp; info@shmotki-detkam.ru</a></div>
+                    </li>
+                    <li>
+                        <div class="menu_footer_kont1"><a
+                                href="https://www.instagram.com/nata_krivosheina?igshid=bp1viazrm0sx"
+                                target="_blank"><img src="img/instagram.png" alt="instagram"></a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
