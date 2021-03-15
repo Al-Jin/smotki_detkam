@@ -25,7 +25,7 @@ img {
 }
 
 header {
-    background-image: url(img/fon_header.png);
+    background-image: url(../img/fon_header.png);
     background-repeat: repeat;
     max-width: 100%;
     height: 205px;
@@ -419,7 +419,7 @@ footer {
     min-width: 930px;
     margin: 0px auto;
     margin-top: -140px;
-    background-image: url(img/fon_footer.png);
+    background-image: url(../img/fon_footer.png);
     background-repeat: repeat;
     border-top: 4px solid #f8134c;
 }
