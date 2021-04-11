@@ -18,8 +18,8 @@ img {
 }
 
 .container {
-    max-width: 1400px;
-    min-width: 930px;
+    max-width: 1280px;
+    /* min-width: 930px; */
     margin: 0px auto;
     min-height: 100%;
 }
@@ -415,8 +415,8 @@ input[type="reset"]:active {
 
 footer {
     height: 170px;
-    max-width: 1400px;
-    min-width: 930px;
+    /* max-width: 1400px; */
+    /* min-width: 930px; */
     margin: 0px auto;
     margin-top: -140px;
     background-image: url(../img/fon_footer.png);
@@ -493,4 +493,31 @@ footer {
 
 .footer-copyright a:hover {
     color: #555555;
+}
+
+/* @media (min-width: 992px) and (max-width: 1199.98px) {
+
+} */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .head1 {
+        margin: 10px 0 0 10px;
+    }
+    .head2 {
+        margin: 10px 5px 0 0;
+    }
+    .head3 {
+        margin-top: -97px;
+    }
+    .menu_head {
+        width: 134px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (max-width: 575.98px) {
+
 }
