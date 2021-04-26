@@ -66,12 +66,18 @@ header {
     letter-spacing: 3px;
     line-height: 25px;
     text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .menu_tekus {
     background-color: #dadada;
     box-shadow: none;
     border: 1px solid #cccccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .menu li:hover {
@@ -82,6 +88,9 @@ header {
 .menu li:active {
     box-shadow: none;
     border: 1px solid #dadada;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .menu a {
@@ -107,6 +116,9 @@ h3 {
     color: #fc8701;
     border: 3px solid #b9c0bb;
     border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -115,6 +127,9 @@ h2 {
     border: 3px solid #b9c0bb;
     border-radius: 10px;
     background-color: #d6d6d6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*.hashteg {
@@ -149,10 +164,25 @@ p {
     margin: 0 10px 40px 10px;
 }
 
-.catalog a {
+.img-cat {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.catalog_figure:hover {
+    outline: 4px solid #ff0101;
+}
+
+.img-cat-figuration {
+    margin: 15px 0 0 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #9d34ff;
 }
 
 .zakaz {
@@ -169,6 +199,9 @@ p {
     height: 20px;
     line-height: 20px;
     box-shadow: 0.2em 0.2em 3px #a88b8b80;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .zakaz:hover {
@@ -259,6 +292,9 @@ p {
     border-radius: 7px;
     margin: 0 auto;
     padding: 8px 15px 17px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 input[type="text"],
@@ -271,6 +307,9 @@ input[type="email"] {
     font-family: 'Times New Roman';
     font-size: 12px;
     color: #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 input[type="email"] {
@@ -286,6 +325,8 @@ textarea {
     border-radius: 4px;
     padding: 3px;
     margin-top: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Times New Roman';
     font-size: 12px;
@@ -310,6 +351,9 @@ input[type="reset"] {
     height: 25px;
     margin: 0 10px 0 0;
     cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 input[type="submit"]:active,
@@ -341,24 +385,15 @@ input[type="reset"]:active {
     margin-top: 15px;
 }
 
-.img-cat {
-    width: 200px;
-}
-
-.img-cat:hover {
-    outline: 4px solid #ff0101;
-}
-
-.catalog a:hover .img-cat {
-    outline: 4px solid #ff0101;
-}
-
 .tab1 {
     border: 1px solid #000;
     max-width: 700px;
     height: 300px;
     border-collapse: collapse;
     margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .tab1 td {
@@ -366,6 +401,9 @@ input[type="reset"]:active {
     padding: 5px;
     vertical-align: middle;
     text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .five {
@@ -393,6 +431,9 @@ input[type="reset"]:active {
     max-width: 700px;
     height: 300px;
     border-collapse: collapse;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .tab_tovar td {
@@ -400,6 +441,9 @@ input[type="reset"]:active {
     padding: 5px;
     vertical-align: middle;
     text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .tab_har {
@@ -434,6 +478,9 @@ footer {
     background-image: url(../img/fon_footer.png);
     background-repeat: repeat;
     border-top: 4px solid #f8134c;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .footer-content {
@@ -441,6 +488,9 @@ footer {
     justify-content: space-evenly;
     min-width: 100%;
     border-bottom: 1px solid #8d8d8d;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .footer1 {
@@ -465,6 +515,9 @@ footer {
     border-bottom: 1px solid #cecece;
     margin: 0 0 5px 0;
     font-weight: 700;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .logo_footer {
