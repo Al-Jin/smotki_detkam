@@ -342,6 +342,10 @@ textarea:focus {
 .form_pers_dan {
     margin: 0 0 15px 0;
 }
+.button {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 input[type="submit"],
 input[type="reset"] {
@@ -351,11 +355,11 @@ input[type="reset"] {
     border-radius: 8px;
     width: 140px;
     height: 25px;
-    margin: 0 10px 0 0;
     cursor: pointer;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0 7px 10px 7px;
 }
 
 input[type="submit"]:hover,
@@ -594,6 +598,9 @@ footer {
     .head3 {
         margin-top: -97px;
     }
+    .form {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -617,7 +624,6 @@ footer {
     #menu__toggle:checked~.menu__box {
         visibility: visible;
         right: 0;
-        /* left: 0; */
     }
     .menu__btn {
         display: flex;
@@ -654,9 +660,7 @@ footer {
         visibility: hidden;
         top: 0;
         right: 100%;
-        /* left: -100%; */
         width: 170px;
-        /* height: 100%; */
         margin: 0;
         padding: 7px 0;
         list-style: none;
@@ -679,7 +683,6 @@ footer {
     }
     .head2 {
         display: none;
-        /* margin: 10px 5px 0 0; */
     }
     .menu_head {
         width: 134px;
@@ -687,12 +690,26 @@ footer {
     .head3 {
         margin-top: -97px;
     }
+    .form {
+        font-size: 12px;
+    }
+    input[type="text"],
+    input[type="email"] {
+    width: 200px;
+    }
+    .button {
+        justify-content:center;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+        width: 120px;
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 575.98px) {
     .head1 {
         margin: 10px 0 0 10px;
-        /* float: none; */
     }
     .head1 img {
         width: 95px;
@@ -715,7 +732,6 @@ footer {
     #menu__toggle:checked~.menu__box {
         visibility: visible;
         right: 0;
-        /* left: 0; */
     }
     .menu__btn {
         display: flex;
@@ -752,9 +768,7 @@ footer {
         visibility: hidden;
         top: 0;
         right: 100%;
-        /* left: -100%; */
         width: 170px;
-        /* height: 100%; */
         margin: 0;
         padding: 7px 0;
         list-style: none;
@@ -788,6 +802,21 @@ footer {
         width: 267px;
         height: 100px;
     }
+    .form {
+        font-size: 11px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: auto;
+    }
+    .button {
+        justify-content:center;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+        width: 95px;
+        font-size: 10px;
+    }
     .tovar {
         flex-direction: column;
     }
@@ -798,7 +827,6 @@ footer {
         margin: 20px auto 0 auto;
     }
     .footer1 {
-        /* display: none; */
         width: auto;
     }
     .menu_footer {
@@ -831,7 +859,6 @@ footer {
     #menu__toggle:checked~.menu__box {
         visibility: visible;
         right: 0;
-        /* left: 0; */
     }
     .menu__btn {
         display: flex;
@@ -868,9 +895,7 @@ footer {
         visibility: hidden;
         top: 0;
         right: 100%;
-        /* left: -100%; */
         width: 170px;
-        /* height: 100%; */
         margin: 0;
         padding: 7px 0;
         list-style: none;
@@ -893,7 +918,6 @@ footer {
     }
     .head2 {
         display: none;
-        /* margin: 10px 5px 0 0; */
     }
     .menu_head {
         width: 134px;
@@ -905,6 +929,21 @@ footer {
         width: 267px;
         height: 100px;
     }
+    .form {
+        font-size: 10px;
+    }
+    input[type="text"],
+    input[type="email"] {
+    width: 125px;
+    }
+    .button {
+        justify-content:center;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+        width: 95px;
+        font-size: 10px;
+    }
     .tovar {
         flex-direction: column;
     }
@@ -913,6 +952,13 @@ footer {
     }
     .zakaz {
     margin: 20px auto 0 auto;
+    }
+    .tab_tovar {
+        font-size: 13px;
+    }
+    .tab_har {
+        font-size: 30px;
+        height: 40px;
     }
     .footer1 {
         width: auto;
