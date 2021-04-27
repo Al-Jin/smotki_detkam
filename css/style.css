@@ -7,8 +7,6 @@ html,
 body {
     background-color: #eeeeee;
     height: 100%;
-    /*max-width: ;*/
-    /*font-family: 'Montserrat', sans-serif;*/
 }
 
 /*Убираем у картинок лишние пиксели внизу*/
@@ -19,7 +17,6 @@ img {
 
 .container {
     max-width: 1280px;
-    /* min-width: 930px; */
     margin: 0px auto;
     min-height: 100%;
 }
@@ -106,6 +103,7 @@ header {
     margin: 0px auto;
     min-height: 100%;
     padding-bottom: 15px;
+    min-height: calc(100vh - 170px - 205px);
 }
 
 h1,
@@ -338,7 +336,11 @@ textarea:focus {
 
 .snoska {
     font-size: 11px;
-    margin-bottom: 5px;
+    margin: 5px 0 10px 10px;
+}
+
+.form_pers_dan {
+    margin: 0 0 15px 0;
 }
 
 input[type="submit"],
@@ -354,6 +356,11 @@ input[type="reset"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #c2c2c2;
 }
 
 input[type="submit"]:active,
@@ -462,19 +469,17 @@ input[type="reset"]:active {
     margin: 0 50px 0 0;
 }
 
-.clr {
-    height: 170px;
-    clear: both;
+.soglashenie {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* footer */
 
 footer {
     height: 170px;
-    /* max-width: 1400px; */
-    /* min-width: 930px; */
     margin: 0px auto;
-    margin: -140px 0 0 0;
     background-image: url(../img/fon_footer.png);
     background-repeat: repeat;
     border-top: 4px solid #f8134c;
@@ -535,12 +540,13 @@ footer {
 .menu_footer a,
 .menu_footer_kont a {
     text-decoration: none;
-    color: rgb(78, 78, 78);
+    color: #4e4e4e;
 }
 
 .menu_footer a:hover,
 .menu_footer_kont a:hover {
-    color: #000000;
+    color: #2b2b2b;
+    filter: brightness(80%);
 }
 
 .footer-copyright {

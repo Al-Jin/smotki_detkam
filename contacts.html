@@ -29,17 +29,17 @@
             </div>
             <nav class="head2">
                 <ul class="menu">
-                    <li class="menu_head menu_tekus"><a href="index.html">Главная</a></li>
+                    <li class="menu_head"><a href="index.html">Главная</a></li>
                     <li class="menu_head"><a href="catalog.html">Каталог</a></li>
                     <li class="menu_head"><a href="raboty.html">Мои работы</a></li>
-                    <li class="menu_head"><a href="contacts.html">Контакты</a></li>
+                    <li class="menu_head menu_tekus"><a href="contacts.html">Контакты</a></li>
                 </ul>
             </nav>
             <div class="head3">
                 <img src="img/logo1.png" alt="logo" height="153">
             </div>
         </header>
-        <div class="content">
+        <main class="content">
             <h2>Напишите нам:</h2>
             <form class="form" action="php/send.php" method="POST">
                 <div class="in_form-left">Ваше имя:</div>
@@ -51,13 +51,10 @@
                 <div class="in_form-right"><input type="email" name="email" placeholder="E-mail*" required></div>
                 <div class="in_form-left">Тема письма:</div>
                 <div class="in_form-right"><input type="text" name="tema" placeholder="Тема*" required></div>
-                <textarea rows="10" name="tekst" placeholder="Текст письма*" required></textarea><br>
-                <!--<input type='checkbox' onchange="document.getElementById('submit').disabled = !this.checked" />Согласен(на) на
-        обработку персональных данных.<br>
-        <br><input type='submit' id='submit' disabled value="Отправить данные">-->
-                <p class="snoska">* поля, обязательные для заполнения</p>
-                <p>Отправляя письмо, Вы принимаете <a href="person_dan.html">"Соглашение об обработке персональных
-                        данных"</a></p><br>
+                <textarea rows="10" name="tekst" placeholder="Текст письма*" required></textarea>
+                <div class="snoska">* поля, обязательные для заполнения</div>
+                <div class="form_pers_dan">Отправляя письмо, Вы принимаете <a href="person_dan.html">"Соглашение об обработке персональных
+                        данных"</a></div>
                 <input type='submit' value=" Отправить данные ">
                 <input type="reset" value=" Отмена ">
             </form>
@@ -65,7 +62,7 @@
             <ul class="menu_kont">
                 <li>
                     <div class="menu_kont1">
-                        <!--<a href="#"><img src="img/phone.png" alt="phone">&nbsp;&nbsp; +7 929 81 81 676</a>-->
+                        <!--<a href="#"><img src="img/phone.png" alt="phone">&nbsp;&nbsp; </a>-->
                     </div>
                 </li>
                 <li>
@@ -86,8 +83,7 @@
                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6816b7e22164b5c3f7b07923483df4363d04cabc54b4c08f69d9317859e2f58f&amp;lang=ru_RU&amp;scroll=true">
                 </script>
             </div>
-        </div>
-        <div class="clr"></div>
+        </main>
         <footer>
             <div class="footer-content">
                 <div class="footer1">
