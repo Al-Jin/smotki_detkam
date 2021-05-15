@@ -37,7 +37,7 @@ $tekst = urldecode($tekst);
 $tekst = trim($tekst);
 
 /* Сюда впишите свою эл. почту */
-$myaddres = "info@shmotki-detkam.ru"; // кому отправляем
+$myaddres = "#"; // кому отправляем
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
 $mes = "Заявка на пошив с сайта\nИмя: $name\nТелефон: $phone\nПочта: $email\nТема: $tema\n $tekst";
